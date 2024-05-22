@@ -11,7 +11,4 @@ public abstract class BaseItem {
     private String icon;
 
     private String description;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    private User user;
 }
